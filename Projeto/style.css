@@ -50,6 +50,8 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 16px;
+
+  padding: 24px 0;
 }
 
 ul li a {
@@ -76,4 +78,35 @@ ul li a {
 ul li a:hover {
   background: rgba(255, 255, 255, 0.05); 
   border: 1px solid white;
+}
+
+/*social links*/
+#social-links {
+  display: flex;
+  justify-content: center;
+  
+  padding: 24px 0;
+
+  font-size: 24px;
+}
+
+#social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+
+  transition: backgroun 0.5s;
+  border-radius: 50%;
+}
+
+#social-links a:hover { 
+  background: rgba(225, 225, 225, 0.2);
+  padding: 16px;
+}
+
+footer {
+  padding: 24px 0;
+  text-align: center;
+  font-size: 14px;
 }
