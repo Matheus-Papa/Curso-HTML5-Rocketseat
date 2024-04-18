@@ -29,6 +29,7 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
+  height: 100vh;
 
   /*background: color image repeat position/size
   Esse de baixo é igual ao de cima
